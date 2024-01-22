@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+.chest{
+    display:none;
+}
+.guns{
+    display:none;
+}
+.died{
+    display:none;
+}
+.victory{
+    display:none;
+}
+
+.restart {
+  background-color: darkgreen;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+#story {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.tilted, .park, .springs {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.tilted:hover {
+    background-color: lightgreen;
+    color: black;
+    border: 2px solid darkgreen;
+}
+
+.springs:hover {
+    background-color: lightgreen;
+    color: black;
+    border: 2px solid darkgreen;
+}
+
+.park:hover {
+    background-color: lightgreen;
+    color: black;
+    border: 2px solid darkgreen;
+}
+
+img {
+    width: 600px;
+    height: 350px;
+    margin-top: 10px;
+   
+}
+
+#choice1 {
+    color: black;
+    font-size: 20px;
+}
+    
